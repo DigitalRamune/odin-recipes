@@ -9,19 +9,12 @@ body {
     font-weight: bold;
 }
 
-.ingredients {
-    display: inline-block;
-    border: 3px;
-    border-color: black;
-    box-sizing: border-box;
-    width: 200px;
-    height: 200px;
+.container {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.steps {
-    box-sizing: border-box;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    
+.title {
+    border: 4px black;
+    font-size: 32px;
 }
